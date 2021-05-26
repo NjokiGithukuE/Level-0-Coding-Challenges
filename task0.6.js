@@ -1,10 +1,10 @@
-function maximumnumber(x,y,z){
-    if(x>y && x>z){
-      return x+" is the maximum number.";
-    }else if(y>x && y>z){
-      return  y+" is the maximum number.";
+function maximumnumber(number1, number2, number3){
+    if(number1 > number2 && number1 > number3){
+      return number1+" is the maximum number.";
+    }else if (number2 > number1 && number2 > number3){
+      return  number2+" is the maximum number.";
     }else{
-      return z+" is the maximum number.";
+      return number3+" is the maximum number.";
     }
   }
   maximumnumber(5,6,7);
